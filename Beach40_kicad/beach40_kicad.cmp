@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Tue 27 Jan 2015 17:06:24 AEDT
+
+BeginCmp
+TimeStamp = /54C61AFA;
+Reference = C1;
+ValeurCmp = 10nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C5F96A;
+Reference = C2;
+ValeurCmp = 10nF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BCDA00;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BCDA0F;
+Reference = D2;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BCDA1E;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BCDA2D;
+Reference = D4;
+ValeurCmp = DIODE;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BCD5A9;
+Reference = RV1;
+ValeurCmp = 200;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /54BB5708;
+Reference = SMA_E1;
+ValeurCmp = RF IN;
+IdModule  = SMA;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C5F9CB;
+Reference = T1;
+ValeurCmp = TRANSFO;
+IdModule  = PIN_ARRAY_2X2;
+EndCmp
+
+EndListe

@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:sma
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,15 +30,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:sma_edge
 LIBS:beach40_kicad-cache
-EELAYER 25 0
+EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "19 jan 2015"
+Date "27 jan 2015"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,17 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L SMA_EDGE SMA_E1
-U 1 1 54BB5708
-P 1650 5000
-F 0 "SMA_E1" H 1800 5300 60  0000 C CNN
-F 1 "RF IN" H 1800 5200 60  0000 C CNN
-F 2 "" H 1650 5000 60  0000 C CNN
-F 3 "" H 1650 5000 60  0000 C CNN
-	1    1650 5000
-	-1   0    0    1   
-$EndComp
 $Comp
 L POT RV1
 U 1 1 54BCD5A9
@@ -205,37 +194,18 @@ F 3 "" H 2300 5000 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2000 5000 2100 5000
-Wire Wire Line
 	2500 5000 2650 5000
 $Comp
-L GND #PWR03
-U 1 1 54C61B84
-P 2100 5450
-F 0 "#PWR03" H 2100 5450 30  0001 C CNN
-F 1 "GND" H 2100 5380 30  0001 C CNN
-F 2 "" H 2100 5450 60  0000 C CNN
-F 3 "" H 2100 5450 60  0000 C CNN
-	1    2100 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR04
-U 1 1 54C61BBC
-P 2050 4550
-F 0 "#PWR04" H 2050 4550 30  0001 C CNN
-F 1 "GND" H 2050 4480 30  0001 C CNN
-F 2 "" H 2050 4550 60  0000 C CNN
-F 3 "" H 2050 4550 60  0000 C CNN
-	1    2050 4550
-	1    0    0    -1  
+L SMA J1
+U 1 1 54C729C5
+P 1750 5300
+F 0 "J1" H 1875 5615 60  0000 C CNN
+F 1 "SMA" H 1940 5540 60  0000 C CNN
+F 2 "SMA" H 1925 5470 50  0000 C CNN
+F 3 "" H 1750 5300 60  0000 C CNN
+	1    1750 5300
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 5100 2000 5450
-Wire Wire Line
-	2000 5450 2100 5450
-Wire Wire Line
-	2000 4900 2000 4550
-Wire Wire Line
-	2000 4550 2050 4550
+	1900 5000 2100 5000
 $EndSCHEMATC
