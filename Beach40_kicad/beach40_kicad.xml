@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/pwarren/Documents/Beach40_kicad/beach40_kicad.sch</source>
+    <date>Mon 26 Jan 2015 21:14:01 AEDT</date>
+    <tool>Eeschema (2015-01-23 BZR 5386)-product</tool>
+  </design>
+  <components>
+    <comp ref="SMA_E1">
+      <value>RF IN</value>
+      <libsource lib="sma_edge" part="SMA_EDGE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BB5708</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>200</value>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BCD5A9</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BCDA00</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BCDA0F</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BCDA1E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BCDA2D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>10nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C5F96A</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TRANSFO</value>
+      <libsource lib="device" part="TRANSFO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C5F9CB</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10nF</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C61AFA</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="TRANSFO">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TRANSFO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="sma_edge" part="SMA_EDGE">
+      <fields>
+        <field name="Reference">SMA_E</field>
+        <field name="Value">SMA_EDGE</field>
+      </fields>
+      <pins>
+        <pin num="0" name="GND" type="BiDi"/>
+        <pin num="1" name="SIGNAL" type="BiDi"/>
+        <pin num="2" name="GND" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="sma_edge">
+      <uri>/home/pwarren/Downloads/kicad_edge/sma_edge.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D2-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="SMA_E1" pin="0"/>
+      <node ref="C2" pin="2"/>
+      <node ref="SMA_E1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="SMA_E1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D1-Pad1)">
+      <node ref="D3" pin="2"/>
+      <node ref="T1" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="6" name="Audio">
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(D3-Pad1)">
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="8" name="Net-(T1-Pad3)">
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="9" name="Net-(T1-Pad4)">
+      <node ref="T1" pin="4"/>
+    </net>
+  </nets>
+</export>

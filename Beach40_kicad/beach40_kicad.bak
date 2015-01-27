@@ -1,0 +1,241 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:sma_edge
+LIBS:beach40_kicad-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "19 jan 2015"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SMA_EDGE SMA_E1
+U 1 1 54BB5708
+P 1650 5000
+F 0 "SMA_E1" H 1800 5300 60  0000 C CNN
+F 1 "RF IN" H 1800 5200 60  0000 C CNN
+F 2 "" H 1650 5000 60  0000 C CNN
+F 3 "" H 1650 5000 60  0000 C CNN
+	1    1650 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L POT RV1
+U 1 1 54BCD5A9
+P 2800 5000
+F 0 "RV1" H 2800 4900 50  0000 C CNN
+F 1 "200" H 2800 5000 50  0000 C CNN
+F 2 "~" H 2800 5000 60  0000 C CNN
+F 3 "~" H 2800 5000 60  0000 C CNN
+	1    2800 5000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 54BCDA00
+P 3400 4900
+F 0 "D1" H 3400 5000 40  0000 C CNN
+F 1 "DIODE" H 3400 4800 40  0000 C CNN
+F 2 "~" H 3400 4900 60  0000 C CNN
+F 3 "~" H 3400 4900 60  0000 C CNN
+	1    3400 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 54BCDA0F
+P 3450 5300
+F 0 "D2" H 3450 5400 40  0000 C CNN
+F 1 "DIODE" H 3450 5200 40  0000 C CNN
+F 2 "~" H 3450 5300 60  0000 C CNN
+F 3 "~" H 3450 5300 60  0000 C CNN
+	1    3450 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIODE D3
+U 1 1 54BCDA1E
+P 4150 4900
+F 0 "D3" H 4150 5000 40  0000 C CNN
+F 1 "DIODE" H 4150 4800 40  0000 C CNN
+F 2 "~" H 4150 4900 60  0000 C CNN
+F 3 "~" H 4150 4900 60  0000 C CNN
+	1    4150 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L DIODE D4
+U 1 1 54BCDA2D
+P 4150 5300
+F 0 "D4" H 4150 5400 40  0000 C CNN
+F 1 "DIODE" H 4150 5200 40  0000 C CNN
+F 2 "~" H 4150 5300 60  0000 C CNN
+F 3 "~" H 4150 5300 60  0000 C CNN
+	1    4150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C2
+U 1 1 54C5F96A
+P 3250 5750
+F 0 "C2" H 3250 5850 40  0000 L CNN
+F 1 "10nF" H 3256 5665 40  0000 L CNN
+F 2 "" H 3288 5600 30  0000 C CNN
+F 3 "" H 3250 5750 60  0000 C CNN
+	1    3250 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR01
+U 1 1 54C5F9A3
+P 3250 5950
+F 0 "#PWR01" H 3250 5950 30  0001 C CNN
+F 1 "GND" H 3250 5880 30  0001 C CNN
+F 2 "" H 3250 5950 60  0000 C CNN
+F 3 "" H 3250 5950 60  0000 C CNN
+	1    3250 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L TRANSFO T1
+U 1 1 54C5F9CB
+P 4950 5100
+F 0 "T1" H 4950 5350 70  0000 C CNN
+F 1 "TRANSFO" H 4950 4800 70  0000 C CNN
+F 2 "" H 4950 5100 60  0000 C CNN
+F 3 "" H 4950 5100 60  0000 C CNN
+	1    4950 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4750 3600 4750
+Wire Wire Line
+	3600 4750 3600 4900
+Wire Wire Line
+	3200 4900 3200 5300
+Wire Wire Line
+	3200 5300 3250 5300
+Wire Wire Line
+	3600 4900 3950 4900
+Wire Wire Line
+	4350 4900 4350 5300
+Wire Wire Line
+	3250 5300 3250 5600
+Connection ~ 3650 5300
+Wire Wire Line
+	4550 4900 4550 4800
+Wire Wire Line
+	4550 4800 3600 4800
+Connection ~ 3600 4800
+Wire Wire Line
+	3650 5300 3650 5550
+Wire Wire Line
+	3650 5300 3950 5300
+Text GLabel 2900 5600 0    60   Input ~ 0
+Audio
+Wire Wire Line
+	3250 5600 2900 5600
+Connection ~ 3250 5550
+$Comp
+L GND #PWR02
+U 1 1 54C60E64
+P 19500 -3450
+F 0 "#PWR02" H 19500 -3450 30  0001 C CNN
+F 1 "GND" H 19500 -3520 30  0001 C CNN
+F 2 "" H 19500 -3450 60  0000 C CNN
+F 3 "" H 19500 -3450 60  0000 C CNN
+	1    19500 -3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 5300 4550 5550
+Wire Wire Line
+	4550 5550 3650 5550
+Wire Wire Line
+	2800 5250 2800 5450
+Wire Wire Line
+	2800 5450 3650 5450
+Connection ~ 3650 5450
+$Comp
+L C C1
+U 1 1 54C61AFA
+P 2300 5000
+F 0 "C1" H 2300 5100 40  0000 L CNN
+F 1 "10nF" H 2306 4915 40  0000 L CNN
+F 2 "" H 2338 4850 30  0000 C CNN
+F 3 "" H 2300 5000 60  0000 C CNN
+	1    2300 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2000 5000 2100 5000
+Wire Wire Line
+	2500 5000 2650 5000
+$Comp
+L GND #PWR03
+U 1 1 54C61B84
+P 2100 5450
+F 0 "#PWR03" H 2100 5450 30  0001 C CNN
+F 1 "GND" H 2100 5380 30  0001 C CNN
+F 2 "" H 2100 5450 60  0000 C CNN
+F 3 "" H 2100 5450 60  0000 C CNN
+	1    2100 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR04
+U 1 1 54C61BBC
+P 2050 4550
+F 0 "#PWR04" H 2050 4550 30  0001 C CNN
+F 1 "GND" H 2050 4480 30  0001 C CNN
+F 2 "" H 2050 4550 60  0000 C CNN
+F 3 "" H 2050 4550 60  0000 C CNN
+	1    2050 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 5100 2000 5450
+Wire Wire Line
+	2000 5450 2100 5450
+Wire Wire Line
+	2000 4900 2000 4550
+Wire Wire Line
+	2000 4550 2050 4550
+$EndSCHEMATC

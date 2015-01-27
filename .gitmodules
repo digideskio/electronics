@@ -1,0 +1,3 @@
+[submodule "Beach40_kicad/library"]
+	path = Beach40_kicad/library
+	url = git@github.com:/freetronics/freetronics_kicad_library
