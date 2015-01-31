@@ -1,6 +1,6 @@
-update=Tue 27 Jan 2015 17:03:04 AEDT
+update=Sat 31 Jan 2015 21:15:49 AEDT
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -41,14 +41,14 @@ LibName17=sma_connectors/modules/sma
 LibDir=
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=/home/pwarren/Projects/freetronics_kicad_library
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=freetronics_schematic
 LibName2=sma_connectors/library/sma
@@ -83,8 +83,3 @@ LibName30=atmel
 LibName31=contrib
 LibName32=/home/pwarren/Downloads/kicad_edge/sma_edge
 LibName33=valves
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
