@@ -1,4 +1,4 @@
-update=Sat 31 Jan 2015 21:15:49 AEDT
+update=Tue 03 Feb 2015 23:00:35 AEDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -39,8 +39,6 @@ LibName15=pga_sockets
 LibName16=valves
 LibName17=sma_connectors/modules/sma
 LibDir=
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -83,3 +81,5 @@ LibName30=atmel
 LibName31=contrib
 LibName32=/home/pwarren/Downloads/kicad_edge/sma_edge
 LibName33=valves
+[general]
+version=1
