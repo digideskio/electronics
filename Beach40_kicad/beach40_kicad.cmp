@@ -1,11 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-23 BZR 5386)-product   date = Sat 31 Jan 2015 21:27:30 AEDT
-
-BeginCmp
-TimeStamp = /54C5F9CB;
-Reference = 4:1;
-ValeurCmp = TRANSFO;
-IdModule  = ;
-EndCmp
+Cmp-Mod V01 Created by Cvpcb (2015-01-23 BZR 5386)-product   date = Tue 03 Feb 2015 21:04:39 AEDT
 
 BeginCmp
 TimeStamp = /54CD0268;
@@ -71,6 +64,76 @@ IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D30FA1;
+Reference = C10;
+ValeurCmp = 220p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D30F82;
+Reference = C11;
+ValeurCmp = 220p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D08DE9;
+Reference = C12;
+ValeurCmp = 100n;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0DE4A;
+Reference = C13;
+ValeurCmp = 220u;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D30FBA;
+Reference = C14;
+ValeurCmp = 820p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D30FD3;
+Reference = C15;
+ValeurCmp = 820p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0A16A;
+Reference = C16;
+ValeurCmp = 100n;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D30FEC;
+Reference = C17;
+ValeurCmp = 220p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D31005;
+Reference = C18;
+ValeurCmp = 220p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54CD9A99;
+Reference = CAP_TRIM1;
+ValeurCmp = 4-40p;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /54BCDA00;
 Reference = D1;
 ValeurCmp = DIODE;
@@ -106,6 +169,13 @@ IdModule  = SMA;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D0E80E;
+Reference = K1;
+ValeurCmp = RELAY_2RT;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /54CC8AFF;
 Reference = L1;
 ValeurCmp = 10T BiFilar;
@@ -134,6 +204,41 @@ IdModule  = FT:IND_SRP1040;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D30CAA;
+Reference = L5;
+ValeurCmp = 1u;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D09980;
+Reference = L6;
+ValeurCmp = 3T FB;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D30DE7;
+Reference = L7;
+ValeurCmp = 1u;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D30E00;
+Reference = L8;
+ValeurCmp = 1u;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D34D4F;
+Reference = P1;
+ValeurCmp = BNC;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /54CC74F6;
 Reference = Q1;
 ValeurCmp = 2N2222;
@@ -141,10 +246,17 @@ IdModule  = FT:SOT23_TRANSISTOR;
 EndCmp
 
 BeginCmp
-TimeStamp = /54CC9F87;
+TimeStamp = /54D09919;
 Reference = Q2;
 ValeurCmp = BD139;
 IdModule  = FT:SOT23_TRANSISTOR;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D098BC;
+Reference = Q3;
+ValeurCmp = BD139;
+IdModule  = TO126;
 EndCmp
 
 BeginCmp
@@ -208,6 +320,27 @@ TimeStamp = /54CCA212;
 Reference = R9;
 ValeurCmp = 4.7;
 IdModule  = FT:1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D0993E;
+Reference = R10;
+ValeurCmp = 6.8k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D09963;
+Reference = R11;
+ValeurCmp = 330;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54C5F9CB;
+Reference = TRANSFO1;
+ValeurCmp = 4:10;
+IdModule  = ;
 EndCmp
 
 BeginCmp
