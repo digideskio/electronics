@@ -1,37 +1,37 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-23 BZR 5386)-product   date = Tue 03 Feb 2015 23:19:06 AEDT
+Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5391)-product   date = Wed 04 Feb 2015 09:04:11 AEDT
 
 BeginCmp
 TimeStamp = /54D21563;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = FT:1210_CAP;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1F4D8;
 Reference = C2;
-ValeurCmp = CAP;
-IdModule  = FT:1210_CAP;
+ValeurCmp = 100n;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD0268;
 Reference = C3;
 ValeurCmp = 10n;
-IdModule  = FT:1210_CAP;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1F4F7;
 Reference = C4;
 ValeurCmp = 1n;
-IdModule  = FT:1210_CAP;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1E44B;
 Reference = C5;
-ValeurCmp = C_POL;
+ValeurCmp = 1u;
 IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
@@ -46,161 +46,161 @@ BeginCmp
 TimeStamp = /54D1C501;
 Reference = C7;
 ValeurCmp = 4.7u;
-IdModule  = FT:1210_CAP;
+IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C5F96A;
 Reference = C8;
 ValeurCmp = 10nF;
-IdModule  = FT:1210_CAP;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1CF81;
 Reference = C9;
 ValeurCmp = 220u;
-IdModule  = FT:1210_CAP;
+IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1CFAE;
 Reference = C10;
 ValeurCmp = 220u;
-IdModule  = ;
+IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1CB83;
 Reference = C11;
 ValeurCmp = 4.7n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1D8A5;
 Reference = C12;
 ValeurCmp = C_POL;
-IdModule  = ;
+IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1CCA7;
 Reference = C13;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC91CC;
 Reference = C14;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCFE50;
 Reference = C15;
 ValeurCmp = 1n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD09EE;
 Reference = C16;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD0D66;
 Reference = C17;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30FA1;
 Reference = C18;
 ValeurCmp = 220p;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30F82;
 Reference = C19;
 ValeurCmp = 220p;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC9FF4;
 Reference = C20;
 ValeurCmp = 100n;
-IdModule  = FT:1210_CAP;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCABCB;
 Reference = C21;
 ValeurCmp = 100n;
-IdModule  = FT:1210_CAP;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30FBA;
 Reference = C22;
 ValeurCmp = 820p;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCA532;
 Reference = C23;
 ValeurCmp = 100n;
-IdModule  = FT:1210_CAP;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30FD3;
 Reference = C24;
 ValeurCmp = 820p;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D08DE9;
 Reference = C25;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D0DE4A;
 Reference = C26;
 ValeurCmp = 220u;
-IdModule  = ;
+IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30FEC;
 Reference = C27;
 ValeurCmp = 220p;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D31005;
 Reference = C28;
 ValeurCmp = 220p;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D0A16A;
 Reference = C29;
 ValeurCmp = 100n;
-IdModule  = ;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
