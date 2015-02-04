@@ -1,4 +1,4 @@
-update=Wed 04 Feb 2015 09:06:45 AEDT
+update=Wed 04 Feb 2015 12:48:57 AEDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -46,7 +46,7 @@ NetIExt=net
 EquName1=devcms
 [eeschema]
 version=1
-LibDir=/home/pwarren/Projects/freetronics_kicad_library
+LibDir=library
 [eeschema/libraries]
 LibName1=freetronics_schematic
 LibName2=sma_connectors/library/sma

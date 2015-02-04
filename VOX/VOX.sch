@@ -1,0 +1,266 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TRANSFO-AUDIO T1
+U 1 1 54D29082
+P 2550 2350
+F 0 "T1" H 2550 2810 50  0000 C CNN
+F 1 "TRANSFO-AUDIO" H 2560 2720 50  0000 C CNN
+F 2 "" H 2550 2350 60  0000 C CNN
+F 3 "" H 2550 2350 60  0000 C CNN
+	1    2550 2350
+	1    0    0    -1  
+$EndComp
+Text Label 3150 2150 0    60   ~ 0
+RadioMicIn
+Text Label 3150 2550 0    60   ~ 0
+RaioMicGnd
+Wire Wire Line
+	2950 2150 3150 2150
+Wire Wire Line
+	2950 2550 3150 2550
+Text Label 1150 2100 2    60   ~ 0
+SoundCardIn
+Text Label 1200 2550 2    60   ~ 0
+SoundCardGND
+Wire Wire Line
+	1150 2100 2150 2100
+Wire Wire Line
+	2150 2100 2150 2150
+Wire Wire Line
+	1200 2550 2150 2550
+$Comp
+L CP1 C1
+U 1 1 54D29367
+P 2050 3400
+F 0 "C1" H 2100 3500 50  0000 L CNN
+F 1 "1u" H 2100 3300 50  0000 L CNN
+F 2 "" H 2050 3400 60  0000 C CNN
+F 3 "" H 2050 3400 60  0000 C CNN
+	1    2050 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R1
+U 1 1 54D293D4
+P 2650 3400
+F 0 "R1" V 2730 3400 50  0000 C CNN
+F 1 "47k" V 2657 3401 50  0000 C CNN
+F 2 "" V 2580 3400 30  0000 C CNN
+F 3 "" H 2650 3400 30  0000 C CNN
+	1    2650 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L BC548 Q1
+U 1 1 54D29464
+P 3200 3400
+F 0 "Q1" H 3200 3251 40  0000 R CNN
+F 1 "BC548" H 3200 3550 40  0000 R CNN
+F 2 "TO92" H 3100 3502 29  0000 C CNN
+F 3 "" H 3200 3400 60  0000 C CNN
+	1    3200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R3
+U 1 1 54D294B9
+P 3050 3050
+F 0 "R3" V 3130 3050 50  0000 C CNN
+F 1 "330k" V 3057 3051 50  0000 C CNN
+F 2 "" V 2980 3050 30  0000 C CNN
+F 3 "" H 3050 3050 30  0000 C CNN
+	1    3050 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R2
+U 1 1 54D294EF
+P 3050 2850
+F 0 "R2" V 3130 2850 50  0000 C CNN
+F 1 "4.7k" V 3057 2851 50  0000 C CNN
+F 2 "" V 2980 2850 30  0000 C CNN
+F 3 "" H 3050 2850 30  0000 C CNN
+	1    3050 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L CP1 C2
+U 1 1 54D2950C
+P 3700 3050
+F 0 "C2" H 3750 3150 50  0000 L CNN
+F 1 "10u" H 3750 2950 50  0000 L CNN
+F 2 "" H 3700 3050 60  0000 C CNN
+F 3 "" H 3700 3050 60  0000 C CNN
+	1    3700 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 54D2953F
+P 4150 3350
+F 0 "D1" H 4150 3450 50  0000 C CNN
+F 1 "DIODE" H 4150 3250 50  0000 C CNN
+F 2 "" H 4150 3350 60  0000 C CNN
+F 3 "" H 4150 3350 60  0000 C CNN
+	1    4150 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D2
+U 1 1 54D29562
+P 4350 3050
+F 0 "D2" H 4350 3150 50  0000 C CNN
+F 1 "DIODE" H 4350 2950 50  0000 C CNN
+F 2 "" H 4350 3050 60  0000 C CNN
+F 3 "" H 4350 3050 60  0000 C CNN
+	1    4350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C3
+U 1 1 54D2957F
+P 4750 3250
+F 0 "C3" H 4800 3350 50  0000 L CNN
+F 1 "2.2u" H 4800 3150 50  0000 L CNN
+F 2 "" H 4750 3250 60  0000 C CNN
+F 3 "" H 4750 3250 60  0000 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R4
+U 1 1 54D295E4
+P 5200 3050
+F 0 "R4" V 5280 3050 50  0000 C CNN
+F 1 "4.7k" V 5207 3051 50  0000 C CNN
+F 2 "" V 5130 3050 30  0000 C CNN
+F 3 "" H 5200 3050 30  0000 C CNN
+	1    5200 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L BC548 Q2
+U 1 1 54D29617
+P 5800 3050
+F 0 "Q2" H 5800 2901 40  0000 R CNN
+F 1 "BC548" H 5800 3200 40  0000 R CNN
+F 2 "TO92" H 5700 3152 29  0000 C CNN
+F 3 "" H 5800 3050 60  0000 C CNN
+	1    5800 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 2100 1850 3400
+Connection ~ 1850 2100
+Wire Wire Line
+	2250 3400 2400 3400
+Wire Wire Line
+	2900 3400 3000 3400
+Wire Wire Line
+	2900 3400 2900 3200
+Wire Wire Line
+	2900 3200 2800 3200
+Wire Wire Line
+	2800 3200 2800 3050
+Wire Wire Line
+	3300 2850 3300 3200
+Connection ~ 3300 3050
+Wire Wire Line
+	3300 3050 3500 3050
+Wire Wire Line
+	3900 3050 4150 3050
+Wire Wire Line
+	4150 3050 4150 3150
+Wire Wire Line
+	4550 3050 4950 3050
+Connection ~ 4750 3050
+Wire Wire Line
+	5450 3050 5600 3050
+$Comp
+L +5V #PWR1
+U 1 1 54D29DFF
+P 2350 2950
+F 0 "#PWR1" H 2350 2800 60  0001 C CNN
+F 1 "+5V" H 2350 3090 60  0000 C CNN
+F 2 "" H 2350 2950 60  0000 C CNN
+F 3 "" H 2350 2950 60  0000 C CNN
+	1    2350 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 54D29E13
+P 4150 3900
+F 0 "#PWR2" H 4150 3650 60  0001 C CNN
+F 1 "GND" H 4150 3750 60  0000 C CNN
+F 2 "" H 4150 3900 60  0000 C CNN
+F 3 "" H 4150 3900 60  0000 C CNN
+	1    4150 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 2950 2700 2950
+Wire Wire Line
+	2700 2950 2700 2850
+Wire Wire Line
+	2700 2850 2800 2850
+Wire Wire Line
+	3300 3600 4750 3600
+Wire Wire Line
+	4150 3550 4150 3900
+Connection ~ 4150 3600
+Wire Wire Line
+	4750 3600 4750 3450
+Text Label 6300 2850 0    60   ~ 0
+RadioPTT
+Text Label 6300 3250 0    60   ~ 0
+RadioPTTGND
+Wire Wire Line
+	5900 2850 6300 2850
+Wire Wire Line
+	5900 3250 6300 3250
+$EndSCHEMATC
