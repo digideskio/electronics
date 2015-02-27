@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5391)-product   date = Wed 04 Feb 2015 09:04:11 AEDT
+Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5391)-product   date = Fri 27 Feb 2015 12:28:30 AEDT
 
 BeginCmp
 TimeStamp = /54D21563;
@@ -80,7 +80,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54D1D8A5;
 Reference = C12;
-ValeurCmp = C_POL;
+ValeurCmp = 220u;
 IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
@@ -200,6 +200,13 @@ BeginCmp
 TimeStamp = /54D0A16A;
 Reference = C29;
 ValeurCmp = 100n;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EFD057;
+Reference = C30;
+ValeurCmp = 47u;
 IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
@@ -409,7 +416,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54D2DE67;
 Reference = R6;
-ValeurCmp = R;
+ValeurCmp = 10;
 IdModule  = FT:RES_AXIAL_400MIL;
 EndCmp
 
@@ -505,6 +512,13 @@ IdModule  = FT:RES_AXIAL_400MIL;
 EndCmp
 
 BeginCmp
+TimeStamp = /54EFD084;
+Reference = R20;
+ValeurCmp = 22;
+IdModule  = FT:RES_AXIAL_400MIL;
+EndCmp
+
+BeginCmp
 TimeStamp = /54C5F9CB;
 Reference = TRANSFO1;
 ValeurCmp = 4:10;
@@ -515,7 +529,7 @@ BeginCmp
 TimeStamp = /54D1C770;
 Reference = U1;
 ValeurCmp = LM386;
-IdModule  = ;
+IdModule  = Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
