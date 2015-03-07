@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5391)-product   date = Fri 27 Feb 2015 12:28:30 AEDT
+Cmp-Mod V01 Created by Cvpcb (2015-01-23 BZR 5386)-product   date = Sat 07 Mar 2015 20:37:44 AEDT
 
 BeginCmp
 TimeStamp = /54D21563;
@@ -71,9 +71,9 @@ IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D1CB83;
+TimeStamp = /54F9CC90;
 Reference = C11;
-ValeurCmp = 4.7n;
+ValeurCmp = 47u;
 IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
@@ -85,9 +85,9 @@ IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D1CCA7;
+TimeStamp = /54F9B4DB;
 Reference = C13;
-ValeurCmp = 100n;
+ValeurCmp = 4.7n;
 IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
@@ -204,9 +204,30 @@ IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EFD057;
+TimeStamp = /54F9B521;
 Reference = C30;
-ValeurCmp = 47u;
+ValeurCmp = 100n;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55C84;
+Reference = C31;
+ValeurCmp = 1n;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55CEA;
+Reference = C32;
+ValeurCmp = 100n;
+IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55CAF;
+Reference = C33;
+ValeurCmp = 18p;
 IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
 EndCmp
 
@@ -253,17 +274,17 @@ IdModule  = Relays_ThroughHole:Relais_DPDT_Schrack-RT2_RM5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /54CC8AFF;
+TimeStamp = /54FB433B;
 Reference = L1;
-ValeurCmp = 10T BiFilar;
-IdModule  = FT:IND_SRP1040;
+ValeurCmp = Bifilar_10t_choke;
+IdModule  = custom_chokes:Biflar_10t_choke;
 EndCmp
 
 BeginCmp
-TimeStamp = /54CC8ABE;
+TimeStamp = /54FAFB2D;
 Reference = L2;
-ValeurCmp = 10t BiFilar;
-IdModule  = FT:IND_SRP1040;
+ValeurCmp = Bifilar_10t_choke;
+IdModule  = custom_chokes:Biflar_10t_choke;
 EndCmp
 
 BeginCmp
@@ -271,20 +292,6 @@ TimeStamp = /54D30CAA;
 Reference = L3;
 ValeurCmp = 1u;
 IdModule  = Choke_Axial_ThroughHole:Choke_Horizontal_RM15mm;
-EndCmp
-
-BeginCmp
-TimeStamp = /54CCAA63;
-Reference = L4;
-ValeurCmp = 10t BiFilar;
-IdModule  = FT:IND_SRP1040;
-EndCmp
-
-BeginCmp
-TimeStamp = /54CCA9D2;
-Reference = L5;
-ValeurCmp = 10t BiFilar;
-IdModule  = FT:IND_SRP1040;
 EndCmp
 
 BeginCmp
@@ -379,6 +386,13 @@ IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Vertical_LargePads;
 EndCmp
 
 BeginCmp
+TimeStamp = /54F55D21;
+Reference = Q5;
+ValeurCmp = BC548;
+IdModule  = Discret:TO92;
+EndCmp
+
+BeginCmp
 TimeStamp = /54D1F55A;
 Reference = R1;
 ValeurCmp = 22k;
@@ -388,7 +402,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54D225DD;
 Reference = R2;
-ValeurCmp = R;
+ValeurCmp = 330;
 IdModule  = FT:RES_AXIAL_400MIL;
 EndCmp
 
@@ -421,16 +435,16 @@ IdModule  = FT:RES_AXIAL_400MIL;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D1CBB2;
+TimeStamp = /54F9B491;
 Reference = R7;
-ValeurCmp = 22;
+ValeurCmp = 18;
 IdModule  = FT:RES_AXIAL_400MIL;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D1CC4D;
+TimeStamp = /54F9B4B6;
 Reference = R8;
-ValeurCmp = 2.2;
+ValeurCmp = 2.2k;
 IdModule  = FT:RES_AXIAL_400MIL;
 EndCmp
 
@@ -512,10 +526,24 @@ IdModule  = FT:RES_AXIAL_400MIL;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EFD084;
+TimeStamp = /54F9B4FA;
 Reference = R20;
-ValeurCmp = 22;
+ValeurCmp = 2.2;
 IdModule  = FT:RES_AXIAL_400MIL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55C59;
+Reference = R21;
+ValeurCmp = 100k;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /54F55C0A;
+Reference = R22;
+ValeurCmp = 4.7k;
+IdModule  = ;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-update=Tue 03 Mar 2015 15:28:39 AEDT
+update=Sat 07 Mar 2015 20:40:14 AEDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -49,7 +49,7 @@ version=1
 LibDir=library
 [eeschema/libraries]
 LibName1=freetronics_schematic
-LibName2=sma_connectors/library/sma
+LibName2=custom_chokes
 LibName3=power
 LibName4=device
 LibName5=transistors
@@ -79,7 +79,6 @@ LibName28=siliconi
 LibName29=opto
 LibName30=atmel
 LibName31=contrib
-LibName32=/home/pwarren/Downloads/kicad_edge/sma_edge
-LibName33=valves
+LibName32=valves
 [general]
 version=1
