@@ -1,31 +1,31 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-23 BZR 5386)-product   date = Sat 07 Mar 2015 20:37:44 AEDT
+Cmp-Mod V01 Created by Cvpcb (2015-01-23 BZR 5386)-product   date = Sun 08 Mar 2015 20:58:49 AEDT
 
 BeginCmp
 TimeStamp = /54D21563;
 Reference = C1;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1F4D8;
 Reference = C2;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD0268;
 Reference = C3;
 ValeurCmp = 10n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1F4F7;
 Reference = C4;
 ValeurCmp = 1n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
@@ -53,7 +53,7 @@ BeginCmp
 TimeStamp = /54C5F96A;
 Reference = C8;
 ValeurCmp = 10nF;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:0603_CAP;
 EndCmp
 
 BeginCmp
@@ -74,7 +74,7 @@ BeginCmp
 TimeStamp = /54F9CC90;
 Reference = C11;
 ValeurCmp = 47u;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:CAP_ELECTRO_D4S1.8;
 EndCmp
 
 BeginCmp
@@ -88,91 +88,91 @@ BeginCmp
 TimeStamp = /54F9B4DB;
 Reference = C13;
 ValeurCmp = 4.7n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC91CC;
 Reference = C14;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCFE50;
 Reference = C15;
 ValeurCmp = 1n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD09EE;
 Reference = C16;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD0D66;
 Reference = C17;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30FA1;
 Reference = C18;
 ValeurCmp = 220p;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30F82;
 Reference = C19;
 ValeurCmp = 220p;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC9FF4;
 Reference = C20;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCABCB;
 Reference = C21;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30FBA;
 Reference = C22;
 ValeurCmp = 820p;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCA532;
 Reference = C23;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30FD3;
 Reference = C24;
 ValeurCmp = 820p;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D08DE9;
 Reference = C25;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
@@ -186,56 +186,56 @@ BeginCmp
 TimeStamp = /54D30FEC;
 Reference = C27;
 ValeurCmp = 220p;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D31005;
 Reference = C28;
 ValeurCmp = 220p;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D0A16A;
 Reference = C29;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F9B521;
 Reference = C30;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F55C84;
 Reference = C31;
 ValeurCmp = 1n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F55CEA;
 Reference = C32;
 ValeurCmp = 100n;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F55CAF;
 Reference = C33;
 ValeurCmp = 18p;
-IdModule  = Capacitors_ThroughHole:Capacitor3MMDiscRM2.5;
+IdModule  = FT:1210_CAP;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CD9A99;
 Reference = CAP_TRIM1;
 ValeurCmp = 4-40p;
-IdModule  = ;
+IdModule  = Discret:C2;
 EndCmp
 
 BeginCmp
@@ -291,28 +291,28 @@ BeginCmp
 TimeStamp = /54D30CAA;
 Reference = L3;
 ValeurCmp = 1u;
-IdModule  = Choke_Axial_ThroughHole:Choke_Horizontal_RM15mm;
+IdModule  = FT:1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30DE7;
 Reference = L6;
 ValeurCmp = 1u;
-IdModule  = Choke_Axial_ThroughHole:Choke_Horizontal_RM15mm;
+IdModule  = FT:1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D18B4C;
 Reference = L7;
 ValeurCmp = 1u;
-IdModule  = Choke_Axial_ThroughHole:Choke_Horizontal_RM15mm;
+IdModule  = FT:1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D30E00;
 Reference = L8;
 ValeurCmp = 1u;
-IdModule  = Choke_Axial_ThroughHole:Choke_Horizontal_RM15mm;
+IdModule  = FT:1206;
 EndCmp
 
 BeginCmp
@@ -330,17 +330,17 @@ IdModule  = Sockets_BNC:BNC_Socket_TYCO-AMP_LargePads;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D1F579;
+TimeStamp = /54FC4147;
 Reference = P2;
-ValeurCmp = Mic In;
-IdModule  = ;
+ValeurCmp = MIC_IN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D1D8D8;
+TimeStamp = /54FC3A44;
 Reference = P3;
 ValeurCmp = Audio Out;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
@@ -354,203 +354,203 @@ BeginCmp
 TimeStamp = /54D18A60;
 Reference = PTT1;
 ValeurCmp = SW_PUSH;
-IdModule  = ;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1EB16;
 Reference = Q1;
 ValeurCmp = BC548;
-IdModule  = Housings_TO-92:TO-92-Bipolar-inline-wide-BCE;
+IdModule  = Housings_TO-92:TO-92_Inline_Narrow_Oval;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC74F6;
 Reference = Q2;
 ValeurCmp = 2N2222;
-IdModule  = Housings_TO-92:TO-92-Bipolar-inline-wide-BCE;
+IdModule  = FT:SOT23_TRANSISTOR;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D09919;
 Reference = Q3;
 ValeurCmp = BD139;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Vertical_LargePads;
+IdModule  = Discret:TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D098BC;
 Reference = Q4;
 ValeurCmp = BD139;
-IdModule  = Transistors_TO-220:TO-220_Bipolar-BCE_Vertical_LargePads;
+IdModule  = Discret:TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F55D21;
 Reference = Q5;
 ValeurCmp = BC548;
-IdModule  = Discret:TO92;
+IdModule  = Housings_TO-92:TO-92_Inline_Narrow_Oval;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1F55A;
 Reference = R1;
 ValeurCmp = 22k;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D225DD;
 Reference = R2;
 ValeurCmp = 330;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1EBFE;
 Reference = R3;
 ValeurCmp = 2.2k;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1EC91;
 Reference = R4;
 ValeurCmp = 100;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D1F512;
 Reference = R5;
 ValeurCmp = 220;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D2DE67;
 Reference = R6;
 ValeurCmp = 10;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F9B491;
 Reference = R7;
 ValeurCmp = 18;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F9B4B6;
 Reference = R8;
 ValeurCmp = 2.2k;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC9050;
 Reference = R9;
 ValeurCmp = 100;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC7575;
 Reference = R10;
 ValeurCmp = 2.2k;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC75A0;
 Reference = R11;
 ValeurCmp = 1k1;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC75CB;
 Reference = R12;
 ValeurCmp = 100;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC75EA;
 Reference = R13;
 ValeurCmp = 10;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCA1C6;
 Reference = R14;
 ValeurCmp = 470;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCA16F;
 Reference = R15;
 ValeurCmp = 2.2k;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCA1F9;
 Reference = R16;
 ValeurCmp = 22;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CCA212;
 Reference = R17;
 ValeurCmp = 4.7;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D0993E;
 Reference = R18;
 ValeurCmp = 6.8k;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D09963;
 Reference = R19;
 ValeurCmp = 330;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F9B4FA;
 Reference = R20;
 ValeurCmp = 2.2;
-IdModule  = FT:RES_AXIAL_400MIL;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F55C59;
 Reference = R21;
 ValeurCmp = 100k;
-IdModule  = ;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /54F55C0A;
 Reference = R22;
 ValeurCmp = 4.7k;
-IdModule  = ;
+IdModule  = FT:1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /54C5F9CB;
-Reference = TRANSFO1;
-ValeurCmp = 4:10;
-IdModule  = ;
+TimeStamp = /54FC418C;
+Reference = T1;
+ValeurCmp = 4:10_Transformer;
+IdModule  = custom_chokes:4_10_Transformer;
 EndCmp
 
 BeginCmp
