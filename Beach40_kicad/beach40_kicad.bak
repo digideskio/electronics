@@ -654,7 +654,7 @@ Wire Wire Line
 Text GLabel 7550 3300 0    60   Input ~ 0
 T/R-P-NO
 Text GLabel 9550 3400 0    60   Input ~ 0
-T/R-P-NC
+T/R-P-NO
 $Comp
 L INDUCTOR L3
 U 1 1 54D30CAA
