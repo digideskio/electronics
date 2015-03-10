@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-27 BZR 5391)-product   date = Tue 10 Mar 2015 10:25:41 AEDT
+Cmp-Mod V01 Created by Cvpcb (2015-01-23 BZR 5386)-product   date = Tue 10 Mar 2015 20:45:49 AEDT
 
 BeginCmp
 TimeStamp = /54D21563;
@@ -270,7 +270,7 @@ BeginCmp
 TimeStamp = /54D0E80E;
 Reference = K1;
 ValeurCmp = RELAY_2RT;
-IdModule  = Relays_ThroughHole:Relay_DPDT_Schrack-RT2_RM5mm;
+IdModule  = custom_relay:Relay_DPDT_Custom;
 EndCmp
 
 BeginCmp
