@@ -6,7 +6,7 @@ Beach40_kicad: Teaching myself KiCad, schematic generation, footprints and PCB l
 To get this up and running, you'll need to do a
 ```
 git submodule init
-git submodule pull
+git submodule update
 ```
 to pull in the relevant FreeTronics KiCad libraries.
 
