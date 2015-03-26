@@ -1,7 +1,9 @@
 electronics
 ===========
 
-Beach40_kicad: Teaching myself KiCad, schematic generation, footprints and PCB layout by designing a board for Peter Parker's Beach40 transceiver. More info on the design at http://vk3ye.com/
+Beach40_kicad
+=============
+Teaching myself KiCad, schematic generation, footprints and PCB layout by designing a board for Peter Parker's Beach40 transceiver. More info on the design at http://vk3ye.com/
 
 To get this up and running, you'll need to do a
 ```
@@ -11,8 +13,20 @@ git submodule update
 to pull in the relevant FreeTronics KiCad libraries.
 
 
-VOX: Simple Voice Activated Switch circuit
+VOX
+===
 
+Simple Voice Activated Switch circuit
+
+My_LBS
+======
+
+My version of Pete Juliano's (N6QW) "Let's Build Something" SSB transceiver.  Design details at http://jessystems.com/LBS_Detail.html
+
+
+
+License
+=======
 
 All files and designs in this repository are licensed as CC-BY-SA. See LICENSE for details, here's a summary:
 
