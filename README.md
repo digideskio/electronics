@@ -1,6 +1,3 @@
-electronics
-===========
-
 Beach40_kicad
 =============
 Teaching myself KiCad, schematic generation, footprints and PCB layout by designing a board for Peter Parker's Beach40 transceiver. More info on the design at http://vk3ye.com/
@@ -22,6 +19,8 @@ My_LBS
 ======
 
 My version of Pete Juliano's (N6QW) "Let's Build Something" SSB transceiver.  Design details at http://jessystems.com/LBS_Detail.html
+
+The only differnce so far is the audio output stages. I had an LM386 on hand, and used that instead, with a 2n3904 audio pre-amp.
 
 
 
