@@ -1,4 +1,4 @@
-update=Thu 26 Mar 2015 13:33:49 AEDT
+update=Sat 28 Mar 2015 14:15:59 AEDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -57,6 +57,20 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/pwarren/Projects/electronics/Beach40_kicad/custom_chokes
+LibName31=/home/pwarren/Projects/electronics/pw_libs/custom_chips
+LibName32=/home/pwarren/Projects/electronics/pw_libs/custom_chokes
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
 [general]
 version=1

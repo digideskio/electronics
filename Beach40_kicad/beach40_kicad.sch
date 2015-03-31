@@ -1,6 +1,5 @@
 EESchema Schematic File Version 2
 LIBS:freetronics_schematic
-LIBS:custom_chokes
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,6 +30,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:custom_chokes
 LIBS:beach40_kicad-cache
 EELAYER 25 0
 EELAYER END
