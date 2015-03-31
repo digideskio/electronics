@@ -1,4 +1,4 @@
-update=Sat 28 Mar 2015 14:15:59 AEDT
+update=Mon 30 Mar 2015 22:47:11 AEDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,6 +59,8 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/pwarren/Projects/electronics/pw_libs/custom_chips
 LibName32=/home/pwarren/Projects/electronics/pw_libs/custom_chokes
+[general]
+version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -72,5 +74,3 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
-[general]
-version=1
